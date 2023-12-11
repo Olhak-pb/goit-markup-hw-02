@@ -1,3 +1,12 @@
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0px, 0px, 0px, 0px;
+}
+ul, ol {
+    margin: 0px, 0px, 0px, 0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
 
 
 body {
@@ -6,9 +15,6 @@ body {
     background-color: #fff;
 }
 
-ul, ol {
-    list-style-type: none;
-}
 
 .full-logo {
     font-family: "Raleway", sans-serif;
@@ -22,6 +28,11 @@ ul, ol {
 
 .logo-second {
     color: #2e2f42;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .link-navi {
@@ -43,7 +54,10 @@ ul, ol {
 }
 
 .adress {
-    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
 
 .contact {
@@ -59,6 +73,7 @@ ul, ol {
 
 .main-info {
     background-color: #2E2F42;
+    
 }
 
 .main-header {
@@ -67,6 +82,7 @@ ul, ol {
     text-align: center;
     letter-spacing: 0.02em;
     color: #fff;
+    font-weight: 700;
 }
 
 .service-button {
@@ -78,6 +94,12 @@ ul, ol {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .service-button:hover, .service-button:focus {
@@ -90,6 +112,7 @@ ul, ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
 }
 
 .description-paragraph {
@@ -97,6 +120,7 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-weight: 400;
 }
 
 .our-team {
@@ -129,6 +153,7 @@ ul, ol {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-weight: 400;
 }
 
 .portfolio-header {
